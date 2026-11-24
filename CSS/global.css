@@ -1,0 +1,16 @@
+/* CSS reset */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Base global styles */
+body {
+    font-family: var(--font-family);
+    font-size: var(--font-size-body1);
+    font-weight: var(--font-weight-semibold);
+    line-height: var(--line-height-body1);
+    background-color: var(--midnight-green);
+    color: var(--white);
+}

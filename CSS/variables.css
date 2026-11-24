@@ -1,0 +1,36 @@
+:root {
+    /* Primary colors */
+    --midnight-green: rgb(1, 78, 86);
+    --light-coral: rgb(246, 126, 126);
+    --white: rgb(255, 255, 255);
+
+    /* Secondary colors */
+    --rapture-blue: rgb(121, 200, 199);
+    --police-blue: rgb(44, 98, 105);
+    --deep-jungle-green: rgb(0, 64, 71);
+    --sacramento-state-green: rgb(1, 47, 52);
+    --dark-green: rgb(0, 37, 41);
+
+    /* Font family */
+    --font-family: "Livvic", sans-serif;
+
+    /* Font weight */
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+
+    /* Font sizes */
+    --font-size-h1-large: 100px;
+    --font-size-h1-small: 64px;
+    --font-size-h2: 48px;
+    --font-size-h3: 18px;
+    --font-size-body1: 18px;
+    --font-size-body2: 15px;
+
+    /* Line heights */
+    --line-height-h1-large: 100px;
+    --line-height-h1-small: 56px;
+    --line-height-h2: 48px;
+    --line-height-h3: 28px;
+    --line-height-body1: 28px;
+    --line-height-body2: 25px;
+}
