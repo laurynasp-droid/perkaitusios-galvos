@@ -53,3 +53,12 @@ body {
     justify-content: center;
     margin-left: auto;
 }
+
+.navigation .contact-link:hover {
+    background-color: var(--white);
+    color: var(--dark-green);
+}
+
+.navigation .links a:hover {
+    color: var(--light-coral);
+}
