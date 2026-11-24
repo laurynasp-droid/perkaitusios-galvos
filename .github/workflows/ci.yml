@@ -30,5 +30,7 @@ jobs:
       - name: Get project files
         uses: actions/checkout@v4
 
-      - name: Check that style.css exists and is not empty
-        run: test -s CSS/style.css
+      - name: Check that about.css and variables.css exist
+        run: |
+          test -f CSS/about.css
+          test -f CSS/variables.css
