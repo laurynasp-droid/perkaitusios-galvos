@@ -24,7 +24,7 @@ perkaitusios-galvos/
 │   ├── about.css       # About page styles
 │   └── contact.css     # Contacts page styles
 ├── js/
-│   └── main.js         # Site-wide JavaScript
+│   └── main.js         # Site-wide JavaScript (shared <site-footer> element)
 ├── .gitignore
 └── README.md
 ```
