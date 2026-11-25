@@ -1,0 +1,28 @@
+.hero-content {
+    max-width: 69.375rem;
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: 635fr 445fr;
+    column-gap: 1.88rem;
+}
+
+.hero-content article {
+    display: flex;
+    flex-direction: column;
+    gap: 4.94rem;
+}
+
+.hero-content article::before {
+    content: "";
+    width: 3.125rem;
+    height: 0.25rem;
+    background-color: var(--rapture-blue);
+}
+
+.hero-content span {
+    color: var(--light-coral);
+}
+
+.hero {
+    margin-top: 8.31rem;
+}
