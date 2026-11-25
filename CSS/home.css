@@ -25,4 +25,31 @@
 
 .hero {
     margin-top: 8.31rem;
+    position: relative;
+    padding-bottom: 15.62rem;
+    overflow: hidden;
+}
+
+.hero::before {
+    content: "";
+    background-image: url("../assets/icons/Group_8.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 12.5rem;
+    height: 12.5rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.hero::after {
+    content: "";
+    background-image: url("../assets/icons/Group_7.svg");
+    width: 22.375rem;
+    height: 12.5rem;
+    position: absolute;
+    right: 10.31rem;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
