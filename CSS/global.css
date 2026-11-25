@@ -15,6 +15,53 @@ body {
     color: var(--white);
 }
 
+.navigation {
+    max-width: 69.375rem;
+    display: flex;
+    align-items: center;
+    margin-top: 4.56rem;
+    margin-inline: auto;
+}
+
+.logo {
+    width: 10rem;
+    height: 2.5rem;
+    margin-right: 5rem;
+}
+
+.navigation .links {
+    display: inline-flex;
+    height: 1.75rem;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    list-style-type: none;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.navigation .contact-link {
+    border-radius: 1.5rem;
+    border: 2px solid var(--white);
+    width: 9.5625rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+}
+
+.navigation .contact-link:hover {
+    background-color: var(--white);
+    color: var(--dark-green);
+}
+
+.navigation .links a:hover {
+    color: var(--light-coral);
+}
 /* Base typography */
 h1, h2, h3 {
     font-family: var(--font-family);
