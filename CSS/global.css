@@ -14,3 +14,29 @@ body {
     background-color: var(--midnight-green);
     color: var(--white);
 }
+
+/* Base typography */
+h1, h2, h3 {
+    font-family: var(--font-family);
+    font-weight: var(--font-weight-bold);
+}
+
+h1 {
+    font-size: var(--font-size-h1-large);
+    line-height: var(--line-height-h1-large);
+}
+
+h2 {
+    font-size: var(--font-size-h2);
+    line-height: var(--line-height-h2);
+}
+
+h3 {
+    font-size: var(--font-size-h3);
+    line-height: var(--line-height-h3);
+}
+
+/* Form controls don't inherit fonts by default */
+button, input, textarea, select {
+    font: inherit;
+}
