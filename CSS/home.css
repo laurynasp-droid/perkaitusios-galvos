@@ -1,8 +1,8 @@
 .hero-content {
     max-width: 69.375rem;
-    margin-inline: auto;
+    margin-inline: 10.31rem;
     display: grid;
-    grid-template-columns: 635fr 445fr;
+    grid-template-columns: 39.6875rem 27.8125rem;
     column-gap: 1.88rem;
 }
 
@@ -24,7 +24,7 @@
 }
 
 .hero {
-    margin-top: 8.31rem;
+    margin-top: 8.06rem;
     position: relative;
     padding-bottom: 15.62rem;
     overflow: hidden;
@@ -51,5 +51,5 @@
     right: 10.31rem;
     bottom: 0;
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: bottom right;
 }
